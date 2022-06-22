@@ -1,0 +1,213 @@
+    .container {
+        &.start {
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+    }
+    
+    .btn-white-icon {
+        background: #FFFFFF;
+        border: 1px solid #ECEEF5;
+        border-radius: 10px;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            filter: grayscale(1);
+        }
+        &:hover {
+            background: linear-gradient(0deg, rgba(77, 76, 172, 0.1), rgba(77, 76, 172, 0.1)), #FFFFFF;
+            img {
+                filter: grayscale(0);
+            }
+        }
+    }
+    
+    .bg-color {
+        background: #FAF9FF;
+        min-height: 100vh;
+    }
+    
+    .contect {
+        h3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 32px;
+            color: #1A1C1D;
+        }
+    }
+    
+    .contact-search {
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #8083A3;
+        }
+        h5 {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1A1C1D;
+        }
+    }
+    
+    .dots-new-icon img {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2px;
+    }
+    
+    .dots-new-icon {
+        position: absolute;
+        bottom: -2px;
+        right: -3px;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        z-index: 999;
+        border: 2px solid #fff;
+        border-radius: 50%;
+    }
+    
+    .nichols-id {
+        h3 {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            color: #1A1C1D;
+            margin: 0;
+        }
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #8083A3;
+        }
+    }
+    
+    .nichols-social {
+        &.three-dots {
+            background: #FFFFFF;
+            border: 1px solid #ECEEF5;
+            border-radius: 10px;
+            padding: 13px 9px;
+        }
+    }
+    
+    .profile-detals {
+        h3 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 32px;
+            color: #1A1C1D;
+            margin: 0;
+        }
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #8083A3;
+        }
+    }
+    
+    // .button-right-icon {
+    //     span {
+    //         background: #FFFFFF;
+    //         border: 1px solid #ECEEF5;
+    //         border-radius: 10px;
+    //         padding: 10px 13px;
+    //         margin-right: 2px;
+    //         margin-left: 6px;
+    //         &.three-dots-new {
+    //             background: #FFFFFF;
+    //             border: 1px solid #ECEEF5;
+    //             border-radius: 10px;
+    //             padding: 18px 14px;
+    //         }
+    //     }
+    // }
+    .bio-new {
+        span {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            min-width: 193px;
+            color: #8083A3;
+            text-align: right;
+            padding-right: 17px;
+        }
+        p {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #1A1C1D;
+        }
+    }
+    
+    .johanan-steves {
+        text-align: end;
+        max-width: 496px;
+        margin-top: 7px;
+        p {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #1A1C1D;
+        }
+    }
+    
+    .profile-content {
+        max-width: 783px;
+    }
+    
+    // .bottom-social-icon span {
+    //     background: #FFFFFF;
+    //     border: 1px solid #ECEEF5;
+    //     border-radius: 10px;
+    //     padding: 13px 19px;
+    //     margin-right: 7px;
+    // }
+    .button-right-icon {
+        display: flex;
+    }
+    
+    .bottom-social-icon {
+        display: flex;
+    }
+    
+    .btn-secondary:hover {
+        color: #fff;
+        background-color: #6b59cc;
+    }
+    
+    .bio-new-class {
+        span.social-new {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            min-width: 193px;
+            color: #8083A3;
+            text-align: right;
+            padding-right: 17px;
+        }
+    }
+    
+    @media screen and (max-width: 1279px) {
+        .bio-new span {
+            min-width: 102px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .bg-color {
+            min-height: 158vh;
+        }
+        .profile-content {
+            max-width: 602px;
+        }
+    }
